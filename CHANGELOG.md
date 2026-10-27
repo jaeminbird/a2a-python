@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.1](https://github.com/a2aproject/a2a-python/compare/v1.3.0...v1.3.1) (2026-10-27)
+
+
+### Bug Fixes
+
+* **compat:** return 400 for a non-integer v0.3 REST historyLength ([#1382](https://github.com/a2aproject/a2a-python/issues/1382)) ([9c90c48](https://github.com/a2aproject/a2a-python/commit/9c90c481437a4959ae4bf5f5350bd52c5f4ff913)), closes [#1381](https://github.com/a2aproject/a2a-python/issues/1381)
+* reject invalid REST boolean query values ([#1383](https://github.com/a2aproject/a2a-python/issues/1383)) ([babc3f5](https://github.com/a2aproject/a2a-python/commit/babc3f56840456f86870b3fef4b3af88041082ab))
+* **server:** create the cluster tables lazily in VersionedDatabaseTaskStore get and delete ([#1357](https://github.com/a2aproject/a2a-python/issues/1357)) ([4e133b7](https://github.com/a2aproject/a2a-python/commit/4e133b77a0727f81ee2c360e9c8eeba298a6f2f2))
+
 ## [1.3.0](https://github.com/a2aproject/a2a-python/compare/v1.2.3...v1.3.0) (2026-10-27)
 
 
